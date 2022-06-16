@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: lightyellow; */
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.text-style {
+    padding: 4px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+#errMsg {
+    color: red;
+}
+
+button {
+    border: 0;
+    border-radius: 40px;
+    font-size: 13pt;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.switch:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#account-type-portal,
+#register-portal,
+#pin-portal,
+#deposit-portal,
+#withdraw-portal,
+#transfer-portal,
+#airtime-portal,
+#options,
+#userName,
+#totalBal {
+    display: none;
+}
+
+h3,
+h4 {
+    display: inline-block;
+}
+
+#options {}
+
+
+/* .container i {
+    cursor: pointer;
+    font-size: 30px;
+    margin-right: 8px;
+    color: blueviolet;
+} */
