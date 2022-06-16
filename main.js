@@ -1,35 +1,5 @@
 //Array of Users
-var userArray = [
-    // {
-    //     accountNumber: '2006127790',
-    //     accountName: 'Nmorka Prince',
-    //     phoneNumber: '07065309576',
-    //     accountBalance: 25000,
-    //     pin: 1234
-    // },
-    // {
-    //     accountNumber: '0261434557',
-    //     accountName: 'Mobolaji Olamide',
-    //     phoneNumber: '08085462442',
-    //     accountBalance: 50000,
-    //     pin: 4321
-    // },
-    // {
-    //     accountNumber: '0210431966',
-    //     accountName: 'Chuks Kasiaric',
-    //     phoneNumber: '09076555206',
-    //     accountBalance: 500000,
-    //     pin: 2220
-    // },
-    // {
-    //     accountNumber: '0210431456',
-    //     accountName: 'Martins Chukwudi',
-    //     phoneNumber: '08038925307',
-    //     accountBalance: 800000,
-    //     pin: 4545
-    // }
-];
-
+var userArray = [];
 
 var currentUser = {
     accountNumber: '',
